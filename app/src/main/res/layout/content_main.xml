@@ -12,269 +12,341 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/button1"
+        <ImageButton
+            android:id="@+id/imageButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/button9"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton9"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button2"
+        <ImageButton
+            android:id="@+id/imageButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/button10"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton10"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button1" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button3"
+        <ImageButton
+            android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/button11"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton11"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button2" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button4"
+        <ImageButton
+            android:id="@+id/imageButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/button12"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton12"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button3" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button5"
+        <ImageButton
+            android:id="@+id/imageButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/button13"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton13"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button4" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button6"
+        <ImageButton
+            android:id="@+id/imageButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/button14"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton14"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button5" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button7"
+        <ImageButton
+            android:id="@+id/imageButton7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/button15"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton15"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button6" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button8"
+        <ImageButton
+            android:id="@+id/imageButton8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/button16"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton16"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button7" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button9"
+        <ImageButton
+            android:id="@+id/imageButton9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button10"
+        <ImageButton
+            android:id="@+id/imageButton10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button9" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button11"
+        <ImageButton
+            android:id="@+id/imageButton11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button10" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button12"
+        <ImageButton
+            android:id="@+id/imageButton12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button11" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button13"
+        <ImageButton
+            android:id="@+id/imageButton13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button12" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button14"
+        <ImageButton
+            android:id="@+id/imageButton14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button13" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton13"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button15"
+        <ImageButton
+            android:id="@+id/imageButton15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button14" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button16"
+        <ImageButton
+            android:id="@+id/imageButton16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button15" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton15"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button17"
+        <ImageButton
+            android:id="@+id/imageButton17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button9"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toEndOf="@+id/imageButton9"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button18"
+        <ImageButton
+            android:id="@+id/imageButton18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button10"
-            app:layout_constraintTop_toBottomOf="@+id/button17" />
+            app:layout_constraintStart_toEndOf="@+id/imageButton10"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button19"
+        <ImageButton
+            android:id="@+id/imageButton19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button11"
-            app:layout_constraintTop_toBottomOf="@+id/button18" />
+            app:layout_constraintStart_toEndOf="@+id/imageButton11"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton18"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button20"
+        <ImageButton
+            android:id="@+id/imageButton20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button12"
-            app:layout_constraintTop_toBottomOf="@+id/button19" />
+            app:layout_constraintStart_toEndOf="@+id/imageButton12"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton19"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button21"
+        <ImageButton
+            android:id="@+id/imageButton21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button13"
-            app:layout_constraintTop_toBottomOf="@+id/button20" />
+            app:layout_constraintStart_toEndOf="@+id/imageButton13"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton20"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button22"
+        <ImageButton
+            android:id="@+id/imageButton22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button14"
-            app:layout_constraintTop_toBottomOf="@+id/button21" />
+            app:layout_constraintStart_toEndOf="@+id/imageButton14"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton21"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button23"
+        <ImageButton
+            android:id="@+id/imageButton23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button15"
-            app:layout_constraintTop_toBottomOf="@+id/button22" />
+            app:layout_constraintStart_toEndOf="@+id/imageButton15"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton22"
+            app:srcCompat="@drawable/ic_blank" />
 
-        <Button
-            android:id="@+id/button24"
+        <ImageButton
+            android:id="@+id/imageButton24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/imageButton_transportation_description"
+            android:onClick="btnClickSelectTransportation"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button16"
-            app:layout_constraintTop_toBottomOf="@+id/button23" />
+            app:layout_constraintStart_toEndOf="@+id/imageButton16"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton23"
+            app:srcCompat="@drawable/ic_blank" />
 
     </android.support.constraint.ConstraintLayout>
 </android.widget.ScrollView>

@@ -3,4 +3,5 @@
     <string name="action_settings">Settings</string>
     <string name="button_createGraph">Create Graph</string>
     <string name="textView_graph">Graph incoming… maybe</string>
+    <string name="imageButton_transportation_description">means of transportation</string>
 </resources>

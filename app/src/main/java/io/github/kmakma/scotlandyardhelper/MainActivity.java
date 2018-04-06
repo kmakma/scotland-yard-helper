@@ -44,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void btnClickSelectTransportation(View view) {
+        // TODO: 05.04.2018 selector for means of transportation
+
+    }
+
     public void btnClickCreateGraph(View view) {
 //        TextView textView = findViewById(R.id.textView_graph);
 //        textView.setText(String.format("%s %d", getString(R.string.textView_graph), ThreadLocalRandom.current().nextInt(1000, 10000)));
